@@ -1,5 +1,5 @@
 ASSIGNMENT-01:
-Question No.01
+Question:
 
 (i) How the ensemble leaning helpful for avoiding overfitting. Discuss with suitable example.
 
@@ -48,7 +48,9 @@ Grading criteria:
 
 ------------------------------------------------------------------------------------------------------------
 
-ASSIGNMENT-03:Q1. Apply transfer learning algorithms to detect diseases like tuberculosis (TB) in X-Ray images and brain tumors in MRI images and analyze the results. Analyze all results
+ASSIGNMENT-03: 
+Question: 
+Apply transfer learning algorithms to detect diseases like tuberculosis (TB) in X-Ray images and brain tumors in MRI images and analyze the results. Analyze all results
 
 Dataset:
   - Chest X-Ray Images (TB)
