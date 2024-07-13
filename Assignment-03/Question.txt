@@ -1,0 +1,49 @@
+Q1. Apply transfer learning algorithms to detect diseases like tuberculosis (TB) in X-Ray images and brain tumors in MRI images and analyze the results. Analyze all results
+
+Dataset:
+  - Chest X-Ray Images (TB)
+  - Brain MRI (Tumor Segmentation)
+  - (Dataset download: Kaggle, GitHub, UCI repository)
+
+Specific Requirements:
+  1. Data Preprocessing:
+   - Split each dataset into training (80%) and validation sets (20%).
+   - Normalize image pixel values between 0 and 1.
+   - Resize images to 256x256 pixels.
+  2. Transfer Learning:
+   - Use each of the following pre-trained models as a starting point:
+   - ResNet50
+   - DenseNet121
+   - InceptionV3
+   - Fine-tune the models by adjusting the following hyperparameters:
+   - Learning rate (0.001, 0.01, 0.1)
+   - Batch size (8, 16,, 32)
+   - Number of epochs (50)
+  3. Performance Evaluation:
+   - Calculate the following metrics for each model on the validation set:
+   - Accuracy
+   - Precision
+   - Recall
+   - F1-score
+   - AUC-ROC
+  4. Comparative Analysis:
+   - Create a table comparing the performance metrics of each model for both datasets.
+   - Plot the ROC curves for each model.
+   - Discuss the strengths and weaknesses of each model and identify the best-performing model for each disease.
+
+Deliverables:
+  i. A Python script or Jupyter Notebook implementing the task.
+  ii. A table comparing the performance metrics of each model for both datasets.
+  iii. A plot (e.g., bar chart or ROC curve) visualizing the performance comparison.
+  iv. A brief report (4-5 pages) discussing the results, strengths, and weaknesses of each model, and concluding with the best-performing model for each disease.
+
+Evaluation Criteria:
+  1. Accuracy and efficiency of the transfer learning approach.
+  2. Effectiveness of hyperparameter tuning.
+  3. Thoroughness of the comparative analysis.
+  4. Clarity and organization of the deliverables.
+
+Additional Requirements:
+  - Use techniques like data augmentation, regularization, or ensemble methods to improve model performance.
+  - Explore the use of transfer learning with different architectures
+  - Discuss the clinical implications and potential applications of the best-performing models in medical diagnosis.
